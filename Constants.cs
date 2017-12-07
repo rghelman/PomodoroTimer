@@ -19,11 +19,11 @@
         internal const string ROUND_DETAILS = @"{0}Round {1} - {2:mm\:ss}";
         internal const string BREAK_DETAILS = @"{0}Break - {1:mm\:ss}";
 
-        internal const int ROUND_TIME_IN_SECONDS = 5;
-        internal const int MAX_BREAK_TIME_BETWEEN_ROUNDS_IN_SECONDS = 5;
-        internal const int MIN_BREAK_TIME_BETWEEN_ROUNDS_IN_SECONDS = 3;
+        internal const int ROUND_TIME_IN_SECONDS = 25 * 60;
+        internal const int MAX_BREAK_TIME_BETWEEN_ROUNDS_IN_SECONDS = 5 * 60;
+        internal const int MIN_BREAK_TIME_BETWEEN_ROUNDS_IN_SECONDS = 3 * 60;
         internal const int NUMBER_OF_ROUNDS_IN_A_SESSION = 4;
-        internal const int MAX_BREAK_TIME_BETWEEN_ROUND_SESSIONS_IN_SECONDS = 10;
-        internal const int MIN_BREAK_TIME_BETWEEN_ROUND_SESSIONS_IN_SECONDS = 5;
+        internal const int MAX_BREAK_TIME_BETWEEN_ROUND_SESSIONS_IN_SECONDS = 30 * 60;
+        internal const int MIN_BREAK_TIME_BETWEEN_ROUND_SESSIONS_IN_SECONDS = 15 * 60;
     }
 }
